@@ -1,0 +1,24 @@
+Hiérarchie des composants pour les menus,
+(Drop-Down Menu)
+(Popup Menu)
+ Les composants d'un menu:
+ JMenuBar : JMenuBar barre = new JMenuBar();
+setJMenuBar(barre),
+ JMenu : JMenu menu = new JMenu(); // créer un menu
+menu.setText("Mon Menu"); // affecter le texte (titre) au menu
+menu.setIcon(new ImageIcon(getImage("./image.png")));
+menu.addSeparator();
+menu.setMnemonic(KeyEvent.VK_M); // affecter le raccourci alt+M
+barre.add(menu); // ajouter le menu dans la barre de menu
+
+ Pour associer la barre de menu à une fenêtre, on utilise la méthode
+ JMenuItem
+ JRadioButtonMenuItem
+ JCheckButtonMenuItem
+ Menu surgissant JPopupMenu
+ Création d'un menu
+ Positionnement de menus
+ Imbrication des composants
+ Les raccourcis du clavier
+ Construction d'un menu avec écouteurs
+ Menu surgissant

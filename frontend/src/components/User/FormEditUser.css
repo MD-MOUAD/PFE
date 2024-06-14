@@ -1,0 +1,92 @@
+.form-page {
+  padding: 20px;
+  margin-left: 320px; /* Adjust based on your sidebar width */
+  background-color: #f7f7f7;
+  min-height: 100vh; /* Ensures the content takes up full height of the viewport */
+}
+
+/* Title styles */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #12153a;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.field {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 1rem;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.control .input,
+.control .textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.control .select {
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button.is-success {
+  background-color: #24315e;
+  color: #ffffff;
+}
+
+.button.is-danger {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.button.is-info {
+  background-color: #17a2b8;
+  color: #ffffff;
+}
+
+.button.is-small {
+  padding: 5px 10px;
+  font-size: 0.875rem;
+}
+
+/* Margin adjustments */
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .form-page {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .button {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+  }
+}

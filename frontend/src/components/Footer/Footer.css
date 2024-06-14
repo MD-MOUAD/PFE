@@ -1,0 +1,21 @@
+.footer {
+    background: none;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  
+  .footer-text {
+    margin: 0;
+    font-size: 14px;
+    background: linear-gradient(to right, #99a6c0, #5c5656);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

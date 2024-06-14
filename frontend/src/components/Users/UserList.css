@@ -1,0 +1,99 @@
+/* General container styles */
+.users-page {
+    padding: 20px;
+    background-color: #f7f7f7;
+    min-height: 100vh; /* Ensures the content takes up full height of the viewport */
+  }
+  
+  /* Title styles */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #12153a;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styles */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #12153a;
+    color: #ffffff;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Button styles */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button.is-primary {
+    background-color: #0084ff;
+    color: #ffffff;
+  }
+  
+  .button.is-info {
+    background-color: #17a2b8;
+    color: #ffffff;
+  }
+  
+  .button.is-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  .button.is-small {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+  }
+  
+  /* Margin adjustments */
+  .mb-2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .users-page {
+      margin-left: 0;
+      padding: 10px;
+    }
+  
+    .table th,
+    .table td {
+      padding: 5px;
+    }
+  
+    .button {
+      padding: 5px 10px;
+      font-size: 0.875rem;
+    }
+  }
+  

@@ -1,0 +1,98 @@
+	--> Chapitre 4:
+- Gestions d'événements (1ère partie) : 
+
+		- bas niveau :
+ FocusEvent : gain ou perte du focus sur un composant.
+ MouseEvent : mouvements et clics de souris et entrer ou sortir d’un composant.
+ KeyEvent : événements clavier.
+ WindowEvent : actions sur une fenêtre, ouverture, fermeture,...
+ ComponentEvent : changement de taille, position ou visibilité d'un composant.
+ ContainerEvent : ajout et suppression d’un composant
+		- semantiques : 
+ ActionEvent : activer un bouton, un champ textuel ...,
+ TextEvent : modification du texte entré.. .  ItemEvent : sélection dans une liste ou dans un groupe de cases à cocher
+ AdjustementEvent : déplacement du curseur d'un ascenseur
+		-Listener :
+		Forme générale : addXxxListener() et removeXxxListener()
+MouseListener, 
+
+MouseMotionListener,
+ActionListener, 
+WindowListener, 
+KeyListener, etc.
+Event handling methods: implementing event listener interfaces, using adapter classes, and anonymous inner classes.
+Choice of event handling method: handling events in the container class, dedicated listener classes, inner classes, or anonymous inner classes.
+		- Adapter : 
+Lorsqu’un nombre limité de méthodes d’une interface intéresse l’utilisateur, on préfère dériver de la classe Adapter plutôt qu’implémenter l’interface Listener.
+Choix de la méthode de gestion des événements
+La gestion des événements peut se faire de plusieurs manières:
+ 1
+ère solution : Gestion des événements par la classe du conteneur graphique,
+L'approche la plus simple, l'interface écouteur est implémentée par la classe graphique.  2
+ème solution : Gestion des événements par des classes dédiées,
+Cette approche consiste à construire une classe par écouteur d'événement.  3
+ème solution : Gestion des événements par des classes membres internes,
+Une classe membre peut accéder facilement aux éléments de la classe parente.
+Cette approche conduit à créer une classe interne par composant et par type d’événement.  4
+ème solution : Gestion des événements par des classes membres internes anonymes,
+Si une classe est crée pour n'être utilisée qu'une seule fois dans le programme, on peut
+utiliser une classe anonyme. Cette approche consiste en la construction d'un objet qui implémente une interface donnée
+sans l'associer à une variable.
+Cette approche conduit à créer une classe interne par composant et par type d’événement.
+- Conteneurs intermédiaires :
+
+Box: Lays out components horizontally or vertically using the BoxLayout manager.
+JPanel: A generic lightweight container with no visual representation.
+JScrollPane: Provides scrollbars for large components that don't fit in the visible area.
+JSplitPane: Divides the container into two resizable parts, each containing a component.
+JTabbedPane: Allows switching between multiple components using tabs.
+JToolBar: Provides a toolbar with buttons and other components.
+JDesktopPane: Allows opening multiple internal frames (like MDI applications).
+JLayeredPane: Allows overlapping components in different layers
+
+
+	--> Chapitre 5:
+
+- Gestion des événements (2ème partie) :
+
+Traite des différents types d'écouteurs d'événements comme ActionListener, WindowListener, KeyListener, ItemListener, MouseInputListener et leurs méthodes associées.
+Fournit des exemples d'implémentation de ces écouteurs pour gérer les événements correspondants.
+
+- Les menus :
+
+Présente la hiérarchie des composants pour les menus (JMenuBar, JMenu, JMenuItem, etc.)
+Explique la création et l'ajout de barres de menus, de menus déroulants, d'éléments de menu, de boutons radio et de cases à cocher dans les menus.
+Aborde les raccourcis clavier avec les mnémoniques et les accélérateurs.
+Détaille la construction de menus avec l'ajout d'écouteurs d'événements.
+Traite des menus surgissants (JPopupMenu) déclenchés par un clic droit.
+
+	--> Chapitre 6:
+
+
+
+- Gestions d'événements (3ème partie) :
+
+FocusListener: Handles focus gained/lost events on components
+TextListener: Reacts to text modifications in text components (AWT only)
+DocumentListener: Tracks insertions, removals, and formatting changes in Swing text components
+CaretListener: Reacts to caret (blinking cursor) movement and text selection changes
+
+
+- Quelques composants spécialisés :
+
+JSlider: A slider component that allows the user to select a value from a range
+JSpinner: A component that lets the user cycle through a sequence of values using spin buttons
+JList: A list component where the user can select one or more items
+
+
+
+The chapter provides detailed explanations, code examples, and usage scenarios for each of these topics. It covers creating instances of these components, customizing their appearance and behavior, and handling associated events using listener interfaces.
+Some key points:
+
+FocusListener helps track when components gain or lose keyboard focus
+TextListener and DocumentListener allow real-time tracking of text changes in text components
+CaretListener is useful for monitoring cursor movements and text selection changes
+JSlider enables creating horizontal or vertical sliders with customizable ranges, ticks, and labels
+JSpinner provides different model types (number, date, list) for displaying and selecting values
+JList allows creating scrollable lists with single or multiple selection modes
+Event handling is demonstrated through implementing relevant listener interfaces and overriding methods

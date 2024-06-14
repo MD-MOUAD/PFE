@@ -1,0 +1,60 @@
+/* Profile.css */
+
+/* Container for the profile section */
+.client-container {
+    background-color: #f9f9f9; /* Background color */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-bottom: 20px; /* Add space at the bottom */
+    height: 50vh;
+    margin-left: 320px; /* Adjust based on your sidebar width */
+    width: calc(100% - 320px); /* Adjust based on your sidebar width */
+
+    }
+  .admin-profile{
+    background-color: #f9f9f9; /* Background color */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-bottom: 20px; /* Add space at the bottom */
+    height: 40vh;
+    width: calc(100%); /* Adjust based on your sidebar width */
+
+  }
+  /* Header styles */
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .profile-header h2 {
+    font-size: 24px;
+    color: #333; /* Dark text color */
+  }
+  
+  /* Avatar styles */
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Make it round */
+  }
+  
+  /* Details styles */
+  .profile-details p {
+    font-size: 16px;
+    color: #555; /* Text color */
+    margin-bottom: 10px;
+  }
+  
+  .profile-details p strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  

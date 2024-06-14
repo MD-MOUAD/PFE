@@ -1,0 +1,93 @@
+/* General container styles */
+.FormAddUser {
+    display: flex; /* Make the container flexbox */
+    margin: 0 auto; /* Center the content horizontally */
+    width: calc(100% - 320px); /* Set width to viewport minus sidebar width */
+  }
+  
+  /* Style the card to have some margin */
+  .card {
+    margin: 1rem;
+  }
+
+
+.form-page, .users-page {
+    padding: 20px;
+    margin-left: 320px; /* Adjust based on your sidebar width */
+    background-color: #f7f7f7;
+    min-height: 100vh; /* Ensures the content takes up full height of the viewport */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+  
+  /* Title styles */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #12153a;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  .field {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .control .input {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+  }
+  
+  .control .select {
+    width: 100px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button.is-success {
+    background-color: #2a3363;
+    color: #ffffff;
+  }
+  
+  .button.is-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  .button.is-info {
+    background-color: #17a2b8;
+    color: #ffffff;
+  }
+  
+  .button.is-small {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+  }
+  
+  /* Margin adjustments */
+  .mb-2 {
+    margin-bottom: 20px;
+  }
+  

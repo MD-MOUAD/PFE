@@ -1,0 +1,193 @@
+.form-page {
+  padding: 20px;
+  margin-left: 320px; /* Adjust based on your sidebar width */
+  background-color: #f7f7f7;
+  height: 50vh;
+  min-height: 100vh; /* Ensures the content takes up full height of the viewport */
+}
+
+/* Title styles */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #12153a;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.field {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 1rem;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.control .input,
+.control .textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.control .select {
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button.is-success {
+  background-color: #24315e;
+  color: #ffffff;
+}
+
+.button.is-danger {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.button.is-info {
+  background-color: #17a2b8;
+  color: #ffffff;
+}
+
+.button.is-small {
+  padding: 5px 10px;
+  font-size: 0.875rem;
+}
+
+/* Margin adjustments */
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .form-page {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .button {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+  }
+}
+
+/* Profile container */
+.profile-container {
+  padding: 20px;
+}
+
+.client-container {
+  background-color: #f9f9f9; /* Background color */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  margin-bottom: 20px; /* Add space at the bottom */
+  height: 50vh;
+  margin-left: 320px; /* Adjust based on your sidebar width */
+  width: calc(100% - 320px); /* Adjust based on your sidebar width */
+}
+
+.admin-profile {
+  background-color: #f9f9f9; /* Background color */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  margin-bottom: 20px; /* Add space at the bottom */
+  height: 40vh;
+  width: calc(100%); /* Adjust based on your sidebar width */
+}
+
+/* Header styles */
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.profile-header h2 {
+  font-size: 24px;
+  color: #333; /* Dark text color */
+}
+
+/* Avatar styles */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Make it round */
+}
+
+/* Details styles */
+.profile-details p {
+  font-size: 16px;
+  color: #555; /* Text color */
+  margin-bottom: 10px;
+}
+
+.profile-details p strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* About section */
+.about-section h3 {
+  font-size: 18px;
+  color: #333; /* Dark text color */
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 16px;
+  color: #555; /* Text color */
+}
+
+/* Links */
+.profile-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.profile-links .link-danger {
+  color: #dc3545;
+  text-decoration: none;
+}
+
+.profile-links .link-info {
+  color: #17a2b8;
+  text-decoration: none;
+}
+.link-danger{
+  margin-top: 50px ;
+  border: none;
+  background-color: #f9f9f9; /* Background color */
+}
+.link-info{
+  margin-top: 50px ;
+  border: none;
+  background-color: #f9f9f9; /* Background color */
+}

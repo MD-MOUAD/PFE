@@ -1,0 +1,31 @@
+/* Sidebar styles */
+.admin-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 320px; /* Adjust based on your sidebar width */
+    height: 100%;
+    background-color: #12153a;
+    color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Main content styles */
+  .admin-layout__content {
+    margin-left: 320px; /* Same width as the sidebar */
+    padding: 20px;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    box-sizing: border-box;
+ 
+  }
+
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .admin-layout__content {
+      padding: 10px;
+    }
+  }
+  
