@@ -13,7 +13,6 @@ const links = [
 
 function HomePage () {
   
-
   return (
  
     <div className="homepage-container">

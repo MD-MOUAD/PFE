@@ -51,7 +51,7 @@ function App() {
           <Route path="chat" element={<UserChat />} />
           <Route path="homepage" element={<HomePage />} />
         </Route>
-        <Route path="*" element={<NotFound />} />
+        {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
     </Router>
   );
